@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Locations" id="Locations">
+	<SimpleField name="FID" type="float"></SimpleField>
+</Schema>
+<Folder><name>Locations</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Locations">
+		<SimpleData name="FID">0</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-99.123008,19.388826</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Locations">
+		<SimpleData name="FID">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>5.655079,51.963486</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
